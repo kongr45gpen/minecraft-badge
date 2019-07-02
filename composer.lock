@@ -1,0 +1,58 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "0d38e71f4e7e642735aee0a8b5e11817",
+    "packages": [
+        {
+            "name": "lukasss93/minecraft-server-status",
+            "version": "2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Lukasss93/minecraft-server-status.git",
+                "reference": "93c4eb8c94f9cffa268e842aa9761b4e7d2651f5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Lukasss93/minecraft-server-status/zipball/93c4eb8c94f9cffa268e842aa9761b4e7d2651f5",
+                "reference": "93c4eb8c94f9cffa268e842aa9761b4e7d2651f5",
+                "shasum": ""
+            },
+            "require": {
+                "ext-iconv": "*",
+                "ext-json": "*",
+                "php": ">=5.6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "MCServerStatus\\": "src/",
+                    "MCServerStatus\\Responses\\": "src/Responses",
+                    "MCServerStatus\\Exceptions\\": "src/Exceptions"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Luca Patera",
+                    "email": "lucapatera@outlook.it"
+                }
+            ],
+            "description": "PHP library to check Minecraft Servers Status",
+            "time": "2018-10-07T00:59:40+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

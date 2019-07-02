@@ -1,0 +1,14 @@
+{
+    "name": "kongr45gpen/minecraft-badge",
+    "description": "Creates a badge/shield that shows the number of players on a minecraft server",
+    "type": "project",
+    "require": {
+        "lukasss93/minecraft-server-status": "^2.0"
+    },
+    "authors": [
+        {
+            "name": "kongr45gpen",
+            "email": "electrovesta@gmail.com"
+        }
+    ]
+}
